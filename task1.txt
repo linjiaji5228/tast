@@ -1,0 +1,10 @@
+1.对想要上传的文件右击，选择git bash here
+2.git init 将这个文件变成git可管理的仓库
+3.git add readme.txt 将一个文件添加到仓库 或 git add.将目录下的所有文件加到仓库
+4.git commit -m "change1"    将文件提交到仓库
+5.创建SSH(key) 如已创建则跳过
+6.在github上面创建一个仓库,并将网址克隆  https://github.com/linjiaji5228/tast.git
+7.将github上的仓库和本地仓库进行关联  git remote add origin https://github.com/linjiaji5228/tast.git
+8.将本地仓库推送到远程仓库 git push -u origin master
+
+csdn 详细介绍:https://blog.csdn.net/weixin_37773766/article/details/80868354
